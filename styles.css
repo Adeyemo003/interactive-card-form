@@ -39,7 +39,7 @@ p{
 }
 
 .first-content{
-    background-image: url(/images/bg-main-mobile.png);
+    background-image: url(../interactive-card-form-/images/bg-main-mobile.png);
     background-position: center;
     background-size: cover;
     width: 100vw;
@@ -95,7 +95,7 @@ p{
     left: 5%;
     top: 63.7%;
     z-index: 99;
-    background-image: url(../interactive-card-details-form-main/images/bg-card-front.png);
+    background-image: url(../interactive-card-form/images/bg-card-front.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -158,7 +158,7 @@ p{
     height: 10rem;
     left: 15%;
     top: 17%;
-    background-image: url(../interactive-card-details-form-main/images/bg-card-back.png);
+    background-image: url(../interactive-card-form/images/bg-card-back.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -618,7 +618,7 @@ button:active {
   .first-content{
     width: 100%;
     height: 100%;   
-    background-image: url(../interactive-card-details-form-main/images/bg-main-desktop.png);
+    background-image: url(../interactive-card-form/images/bg-main-desktop.png);
 }
   
   .cards-cont{
