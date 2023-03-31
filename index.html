@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="keywords" content="coding, frontendmentor, web-design, website, FLEXBOX">
+  <meta name="description" content=" Frontendmentor challenge coded by Adeyemo Opeyemi">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+  
+  <title>Frontend Mentor | Interactive card details form</title>
+</head>
+<body>
+  <main class="content">
+    <div class="first-content">
+        <div class="cards-cont">
+            <div class="front-card-cont card1">
+              <div class="shine-cont"></div>
+              <svg viewbox="0 0 350 50" id="logo" fill="none" xmlns="http://www.w3.org/2000/svg"><ellipse cx="23.478" cy="23.5" rx="23.478" ry="23.5" fill="white"/><path d="M83.5 23.5c0 5.565-4.507 10.075-10.065 10.075-5.559 0-10.065-4.51-10.065-10.075 0-5.565 4.506-10.075 10.065-10.075 5.558 0 10.065 4.51 10.065 10.075Z" stroke="#fff"/></svg>
+              <span class="eye-outline">TAP TO FLIP CARD</span>
+              <div class="details-box">
+                <h3 class="user-number-oncard"></h3>
+                <h4 class="user-name-oncard"></h4>
+                <h4 id="date"><span id="monthofbirth"></span>/<span id="birthyear"></span></h4>
+              </div>
+            </div>
+            <div class="back-card-cont">
+              <div class="shine-cont"></div>
+              <p>Dear customer, your every information is fragile. Beware of scammers.....with love -PYRAMEEED Bank.</p>
+              <h4 id="cvc-oncard">000</h4>
+            </div>
+        </div>
+    </div>
+    <div class="second-content">
+      <div class="input-section">
+        <div>
+          <label for="user-name"><h4>Cardholder Name</h4></label>
+          <input type="text" placeholder="e.g. Adeyemo Opeyemi" id="user-name">
+          <span class="messages" id="message-1"></span>
+        </div>
+        
+        <div>
+          <label for="user-card-no"><h4>Card Number</h4></label>
+          <input type="text" maxlength="16" placeholder="e.g. 1234 5678 9123 0000" id="user-card-no">
+          <span class="messages" id="message-2"></span>
+        </div>
+
+        <div class="cc-cont">
+              
+          <div class="date-cont">
+            <label for="user-dateofbirth"><h4>Exp. Date (MM/YY)</h4></label>
+            <div>
+              <input type="text" maxlength="3" placeholder="MM" id="user-monthofbirth">
+              <input type="text" maxlength="2" placeholder="YY" id="user-birthyear">
+            </div>
+            <span class="messages" id="message-3"></span>
+          </div>
+ 
+          <div class="cvc">
+            <label for="user-cvc"><h4>CVC</h4></label>
+            <input type="text" maxlength="3" placeholder="e.g. 123" id="user-cvc">
+            <span class="messages" id="message-4"></span>
+          </div>
+        </div>
+
+        <button id="confirmBtn"><a>Confirm</a></button>
+        <span class="messages" id="message-5"></span>
+      </div>
+    </div>
+  </main>
+
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </footer>
+    <script src="script.js"></script>
+</body>
+</html>
